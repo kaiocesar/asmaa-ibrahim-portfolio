@@ -1,0 +1,237 @@
+/*
+ * Globals
+ */
+ @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+ @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+ 
+ body{
+  /* font-family: 'Ubuntu'; */
+  font-family: 'Lato', sans-serif;
+
+ }
+.starter-template {
+  padding: 0.5rem 0;
+  min-height: 32rem;
+}
+
+.cover-heading{
+  font-weight: 300;
+}
+
+
+ /* Links */
+.navbar-brand{
+  text-align: center;
+}
+.navbar-brand small{
+  font-size: 10px;
+  display: block;
+  margin-top: 0px;
+  color:#FFF;
+}
+
+/* portfolio */
+.jobs{
+  margin-top: 2rem;
+}
+.jobs .card{
+  width: 14rem;
+  float: left;
+}
+
+.card-img-top{
+  width: 100%;
+  height: 80%;
+  cursor: pointer;
+}
+.card-body{
+  float: left;
+  width: 100%;
+}
+.card-body a{
+  color:#f68684;
+}
+.btn-salmon{
+  color:#333;
+  background-color: #f68684 !important;
+  border-color: #f68684;
+}
+.btn-salmon:hover{
+  border-color:#333 !important;
+}
+.card-title{
+  font-size: 13px;
+}
+.text-center{
+  text-align: center;
+}
+.job-card{
+  text-align: center;
+}
+
+
+/*
+  Modal
+*/ 
+#modal-jobs{
+  color:#333;
+  text-shadow: none;
+}
+
+
+
+/*
+  Blog stylesheet - Bootstrap
+  https://getbootstrap.com/docs/4.1/examples/blog/
+*/
+
+/* stylelint-disable selector-list-comma-newline-after */
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+  overflow: hidden;
+}
+
+.nav-scroller .nav {
+  /* display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap; */
+
+  display: flow-root !important;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+.nav a{
+  padding: 0 2rem !important;
+  text-transform: uppercase;
+  color: #2a2e39 !important;
+  font-size: 14px !important;
+}
+
+.nav a:hover, .nav a.active{
+  color:#f68684 !important;
+  text-decoration: none;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+/*
+ * Blog name and description
+ */
+.blog-title {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.blog-description {
+  font-size: 1.1rem;
+  color: #999;
+}
+
+@media (min-width: 40em) {
+  .blog-title {
+    font-size: 3.5rem;
+  }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+/* Footer */
+.footer{
+  border-top: 1px solid #33333354;
+  padding: 4rem 0 0;
+}
+.box-footer p{
+  font-size: 11px;
+}
+.box-footer a{
+  color:#f68684 !important;
+  font-weight: 500;
+}
+
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
